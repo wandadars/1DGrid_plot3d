@@ -1,0 +1,7 @@
+To compile the code use:  gcc -o 1DGrid 1DGrid.cc -lstdc++
+
+
+To generate a 1D grid with 20 points in the x direction use:   ./1DGrid 21 2 2 0 2 0 1 0 1 >file.grd
+
+This grid was generated assuming that the units were in micrometers. The p3d2ugrid Loci utility does not have a conversion for micrometers, so we can use the vogmerge utility to scale the grid to the appropriate length 
+
